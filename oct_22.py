@@ -151,38 +151,38 @@ s6 = "a *"
 # #
 # # # list(strings)
 # # # [] datatype list
-# # s6 = ('students of this batch aregoing to rock the indian software '
-# #       'industry!\nBecause they are very sincere.\nThey also do their homework on time.        ')
-# # # print(s6)
-# # # print(s6.split(" ")) #return list
-# # # print(s6.split("z"))
-# # # print(s6.split(" ", 4))
-# # #
-# # # print(s6.rsplit(" ",3))
-# # # print(s6.split(" "))
+s6 = 'students of this batch aregoing to rock the indian software ''industry!\nBecause they are very sincere.\nThey also do their homework on time.        '
+print(s6)
+# print(s6.split("\n")) #return list
+# # print(s6.split("z"))
+# # print(s6.split(" ",4,))
+# # # #
+# print(s6.rsplit(" ",3))
+print(s6.split(" "))
 # #
 # # # # print(s6)
-# # # print(s6.split("\n"))
-# # # print(s6.splitlines())
+# print(s6.split("\n"))
+# print(s6.splitlines())
 # #
 # # # s7 = "Harsh is a good boy.
 # # # But, this sentence has an error."
 # #
-# # s8 = "a"
-# # s9 = s8.join("123")
-# # print(s9)
+# s8 = "--"
+# s9 = s8.join(s6.split(" "))
+# print(s9)
+
 # #
 # # # print(" ".join(s8))
 # #
-# # s6 = '            students         of this batch are going batch are to rock the indian software industry!         '
-# # # print(s6.partition("batch"))
-# # # print(s6.partition("are are")) #return tuple
-# # # print(s6.rpartition("batch"))
+s6 = '            ****students         of this batch are going batch are to rock the indian software industry!         '
+# print(s6.partition("batch"))
+# # # # print(s6.partition("are are")) #return tuple
+# print(s6.rpartition("batch"))
 # #
-# # # print(s6.strip("s"))
-# # s8 = "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Happy$$Birthday!$$$$$$$$$$$$$$$$$"
-# #
-# # print(s8.replace("$", " "))
+print(s6.strip("*"))
+s8 = "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Happy$$Birthday!$$$$$$$$$$$$$$$$$"
+
+print(s8.replace("$", " "))
 #
 # """
 #
@@ -197,6 +197,12 @@ s6 = "a *"
 #
 #
 #
+# 1: sperate with space and return in tuple
+# 2: add "***" between each words in the string
+# 3: replace the space by ~
+
+
+
 #
 #
 #
@@ -221,15 +227,22 @@ s6 = "a *"
 # """
 #
 # # # list: Ordered & Mutable collection of members
-# # list1=[1,2,3,4,5,6,7,8,91,0]
-# numbers = [33,12, 0, -125, 44, 33, 4791234, -5592, 33]
+# list1=[1,2,3,4,5,6,7,8,91,0]
+# numbers = [33]
+number=["","1243",None]
+
 # # index     0  1    2     3   4
 # #          -9 -8    -7
-# # print(len(numbers))
-# # print(type(numbers))
-# # s='123456789'
-# # s=123456789
-# # print(list(s))
+# print(len(number))
+# print(type(number))
+# a="123"
+# print(int(a))
+# s='123456789'
+# s1=123456789
+# print(list(s))
+# print(list(s1))
+
+
 # print(numbers[2:8])
 #
 # print altrenate elements from list
@@ -245,9 +258,11 @@ s6 = "a *"
 #
 # print(len(numbers)-1)
 #
-# numbers = [33,12, 0, -125, 44, 33, 4791234, -5592, "33"]
+numbers = [33,12, 0, -125, 44, 33, 4791234, -5592, 77]
 #
-# print(min(numbers))
-# print(max(numbers))
+# numbers=["ab","vb"]
+# print(sum(numbers))
+print(min(numbers))
+print(max(numbers))
 
 
