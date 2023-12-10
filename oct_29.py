@@ -1,8 +1,8 @@
 #
-# numbers=[33, 0, -125, 44, 33, 4791234, 8863, 33]
+numbers=[33, 0, -125, 44, 33, 4791234, 8863, 33]
+
 #
-#
-# numbers=['abc','zya','aaa']
+# # numbers=['abc','zya','aaa']
 # print(min(numbers))
 # print(max(numbers))
 # print(sorted(numbers))
@@ -49,11 +49,31 @@ print(numbers[3])
 print(mix_veg[3])
 print(numbers[2 : -2 : 2])
 """
-vegetables = ["carrot", 123, "potato", "spinach", "cucumber", "beetroot", "onion", "Lemon"]
-print(vegetables)
+vegetables = ["carrot", "potato", "spinach", "cucumber", "beetroot", "onion", "Lemon"]
+# print(vegetables)
 # print(min(vegetables))
 # print(max(vegetables))
+# print(sorted(vegetables,reverse=True))
 # numbers=[33, 10, -125, 44, 33, 4791234, -5592, 33]
+
+# 1) i want sort the list in desc
+# 2) give min from ["cucumber", "beetroot", "onion", "Lemon"]
+# 3) give max from ["cucumber", "beetroot", "onion", "Lemon"]
+
+# print(min(vegetables[3::]))
+# print(max(vegetables[3::]))
+# task:
+# 1) sort it in desc
+# 2)find min, max
+# 3) print(patato,spinach,cucumber)
+# ans:
+# veg=vegetables
+# print(veg)
+# veg[1]=str(veg[1])
+# print(sorted(veg,reverse=True))
+#
+# print(min(veg))
+# print(max(veg))
 
 # vegetables[0]=3333
 # print(vegetables)
@@ -66,6 +86,7 @@ print(vegetables)
 # # print(numbers)
 #
 # # list methods
+
 # numbers.append(2000)
 #
 # numbers.append(3000)
@@ -95,9 +116,24 @@ print(vegetables)
 #
 #
 #
-# li=[1,2,3,4,5,6,7,8,9,0]
+
+li=[1,2,3,4,5,6,7,8,9,0]
+# li.append(["555555","777777"])
+
+li.extend(["555555","777777"])
+print(li)
+
+
 # # output:
 # # [1,3,5,7,9]
 # # [1,0]
 # # [1,2,3,4,5,6,7,8,9,0,"i",55]
 # print(li.count(1))
+
+
+
+# vegetables = ["carrot", "potato", "spinach", "cucumber", "beetroot", "onion", "Lemon"]
+#
+# 1) add "chilly on 5th index"
+# 2) add 'aloo ' in the list
+# 3) add ['happy','burger'] in the list
