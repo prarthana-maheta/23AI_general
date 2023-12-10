@@ -197,6 +197,15 @@ for x in range(-1,5,-1):
 
 
 list1=[1,2,3,5,6]
+even_c=0
+odd_c=0
+for i in list1:
+  if i %2 ==0:
+    even_c+=1
+  else:
+    odd_c+=1
+
+print(even_c,odd_c)
 # for i in list1:
 #   # print(i)
 #   if i == 5:
