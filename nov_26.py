@@ -292,7 +292,9 @@ print(even_c,odd_c)
 
 ###############4##############
 
-# # if the given range is 10
+# # if the given range is 10# Example 7: Python program that accepts a word from the user and reverses it.
+# Example 8: Python program to count the number of even and odd numbers from a series of numbers.
+# Example 9: Python program to find the factorial of a given number.
 # given_range = 10
 #
 # # set up a variable to store the sum
