@@ -137,7 +137,6 @@ fruits = ["apple", "banana", "cherry"]
 # Example 6: Python program to count the total number of digits in a str.
 
 
-
 # Example 7: Python program that accepts a word from the user and reverses it.
 # Example 8: Python program to count the number of even and odd numbers from a series of numbers.
 # Example 9: Python program to find the factorial of a given number.
